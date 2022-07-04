@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> Solving this assignment will give you an idea about how real business problems are solved using EDA. In this case study, apart from applying the techniques you have learnt in EDA, you will also develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
 
 
 ## Table of Contents
@@ -28,21 +28,26 @@
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas - 1.3.4
+- numpy - 1.20.3
+- matplotlib - 3.4.3
+- seaborn - 0.11.2
+- plotly - 5.8.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was group case study for an online advance course.
+- https://www.geeksforgeeks.org/
+- https://seaborn.pydata.org/
+- https://plotly.com/
+- https://pandas.pydata.org/
+- https://learn.upgrad.com/
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@darshil2848] - feel free to contact me!
 
 
 <!-- Optional -->
