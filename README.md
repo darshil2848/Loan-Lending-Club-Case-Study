@@ -49,10 +49,88 @@ To develop your understanding of the domain, you are advised to independently re
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+<div class="alert alert-block alert-danger">
+    <span style='font-family:Georgia'>
+        <b>Factor whether an applicant will be Defaulter: </b> <br><br>
+        <b>Continuous Variable: </b>
+        <ol>
+            <li>LOAN_AMOUNT : Loan amount greater than 15000 dollors have higher default rate</li>
+            <li>FUNDED_AMOUNT : Funded amount greater than 15000 dollors have higher default rate</li>
+            <li>FUNDED_AMOUNT_INVESTED : Funded amount invested greater than 15000 dollors have higher default rate</li>
+            <li>INTEREST_RATE : As Interest rate increases the default rate increases steeply<br>
+                (5, 10]-> 6.739748%<br>
+                (10, 15]-> 14.820089%<br>
+                (15, 20]-> 24.826918% <br>
+                (20, 25]-> 38.441558%</li>
+            <li>ANNUAL_INCOME : As the annual income increase the default rate decreases</li>
+            <li>DTI : As dti increase the default rate increases</li>
+            <li>MONTHS_SINCE_LAST_DELINQ  : Crime committed between 90 to 110 days have higher default percent</li>
+        </ol>
+        <b>Categorical Variable: </b>
+        <ol>
+            <li>TERM : 60 months term have a higher default rate than 36 months term</li>
+            <li>GRADE : As the Grade decreases (A B C D E F G) default rate increases </li>
+            <li>SUB_GRADE : As the Sub Grade decreases (A1 A2 B1 B2.....) default rate increases</li>
+            <li>VERIFICATION STATUS : Percent of loan defaulted is higher for verifed borrowers</li>
+            <li>PURPOSE : Small business borrowers have high default rate</li>
+            <li>PUBLIC_BAKRUPTIES_RECORD : One or more pubilc bankruptices have higher default rate</li>
+            <li>STATE : Percent of loan defaulted is very high for state NE and high for NV and SD</li>
+            <li>EMPLOYEE TITLE : The following have the highest default rate among the top 20 title by frequency:<br>
+                walmart                         -> 25.242718%<br>
+                united parcel service           -> 22.448980%<br>
+                united states postal service    -> 21.118012%<br>
+                other                           -> 20.243085%<br>
+                at&t                            -> 18.47826%</li>
+            <li>ZIP CODE : The following have the highest default rate among the top 20 zip code by frequency:<br>
+                917xx    -> 20.882353%<br>
+                331xx    -> 20.771513%<br>
+                330xx    -> 20.481928%<br>
+                913xx    -> 18.867925%<br>
+                926xx    -> 18.356164%</li>
+        </ol>
+    </span>    
+</div>
+
+<div class="alert alert-block alert-info">
+    <span style='font-family:Georgia'>
+        <b>Other suggestions: </b>
+        <ul>
+            <li>INTEREST RATE AND PUBLIC BANRUPTIES RECORD : Borrowers with lower interest rate and 2 public bankurpties have defaulted</li>
+            <li>INSTALLMENT AND PUBLIC BANRUPTIES RECORD : Borrowers with higher installment and 2 public bankurpties have defaulted</li>
+            <li>ANNUAL INCONE AND PUBLIC BANRUPTIES RECORD : Borrowers with higher Income and 2 public bankurpties have defaulted</li>
+        </ul>
+    </span>    
+</div>
+
+<div class="alert alert-block alert-success">
+    <span style='font-family:Georgia'>
+        <b>Decisive Factor whether an applicant will be Defaulter:</b> 
+        <ul>
+            <li>FUNDED_AMOUNT_INVESTED</li>
+            <li>INTEREST_RATE</li>
+            <li>ANNUAL_INCOME</li>
+            <li>DTI</li>
+            <li>TERM</li>
+            <li>GRADE</li>
+            <li>SUB_GRADE</li>
+            <li>PURPOSE</li>
+            <li>PUBLIC_BAKRUPTIES_RECORD</li>
+        </ul>
+    </span>    
+</div>
+
+<div class="alert alert-block alert-warning">
+    <span style='font-family:Georgia'>
+        <b>Factor that may or may not determine whether an applicant will be Defaulter:</b> 
+        <ul>
+            <li>MONTHS_SINCE_LAST_DELINQ</li>
+            <li>PURPOSE</li>
+            <li>STATE</li>
+            <li>EMPLOYEE TITLE</li>
+            <li>ZIP CODE</li>
+        </ul>
+    </span>    
+</div>
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
