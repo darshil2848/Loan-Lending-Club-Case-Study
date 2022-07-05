@@ -8,8 +8,8 @@
 ## Table of Contents
 * [Problem Statement](#problem-statement)
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
@@ -41,10 +41,16 @@ To develop your understanding of the domain, you are advised to independently re
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Steps for EDA :
+<ol>
+    <li>Data Understanding</li>
+    <li>Data Cleaning</li>
+    <li>Univariate Analysis</li>
+    <li>Bivariate Analysis</li>
+    <li>Multivariate Analysis</li>
+    <li>Conclusion</li>
+</ol>
+- Data Set : Loan Lending Club loans 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
